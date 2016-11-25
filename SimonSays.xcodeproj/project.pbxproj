@@ -12,6 +12,7 @@
 		E43B66C11DCEA5F4001DF46F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43B66BF1DCEA5F4001DF46F /* Main.storyboard */; };
 		E43B66C31DCEA5F4001DF46F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43B66C21DCEA5F4001DF46F /* Assets.xcassets */; };
 		E43B66C61DCEA5F4001DF46F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43B66C41DCEA5F4001DF46F /* LaunchScreen.storyboard */; };
+		E4E8F02A1DCEAF5E009325A2 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E8F0291DCEAF5E009325A2 /* CustomLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E43B66C21DCEA5F4001DF46F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E43B66C51DCEA5F4001DF46F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E43B66C71DCEA5F4001DF46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4E8F0291DCEAF5E009325A2 /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				E43B66BB1DCEA5F4001DF46F /* AppDelegate.swift */,
+				E4E8F0291DCEAF5E009325A2 /* CustomLabel.swift */,
 				E43B66BD1DCEA5F4001DF46F /* ViewController.swift */,
 				E43B66BF1DCEA5F4001DF46F /* Main.storyboard */,
 				E43B66C21DCEA5F4001DF46F /* Assets.xcassets */,
@@ -91,7 +94,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = FlyGoody;
 				TargetAttributes = {
 					E43B66B71DCEA5F3001DF46F = {
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E43B66BE1DCEA5F4001DF46F /* ViewController.swift in Sources */,
+				E4E8F02A1DCEAF5E009325A2 /* CustomLabel.swift in Sources */,
 				E43B66BC1DCEA5F4001DF46F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +186,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -204,7 +209,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -232,6 +237,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -248,7 +254,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -302,6 +308,7 @@
 				E43B66CC1DCEA5F4001DF46F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
